@@ -43,3 +43,44 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Android
+/local.properties
+
+# iOS
+/ios/Flutter/flutter_export_environment.sh
+/ios/.generated/
+
+# Build
+/build/
+/.dart_tool/
+/.packages
+/.pub-cache/
+/.pub/
+/pubspec.lock
+
+# IDE
+/.idea/
+/.vscode/
+*.iml
+*.swp
+*.swo
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+/coverage/
+/test/.test_coverage.dart
+
+# Web (if not used)
+/web/
