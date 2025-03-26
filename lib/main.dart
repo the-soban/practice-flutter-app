@@ -13,7 +13,16 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
-        title: const Text("Greetings, Learner!!"),
+        title: Center(
+          child: const Text(
+            "Greetings, Learner!!",
+            style: TextStyle(
+                fontSize: 20,
+                color: Colors.white,
+                fontFamily: 'Shippori Mincho',
+                fontWeight: FontWeight.w800),
+          ),
+        ),
       ),
       // backgroundColor: Colors.blue[100],
       body: SafeArea(
@@ -63,7 +72,14 @@ class MyApp extends StatelessWidget {
                   SizedBox(
                     width: 12,
                   ),
-                  Text('Second row'),
+                  Text(
+                    'Second row',
+                    style: TextStyle(
+                        fontWeight: FontWeight.w800,
+                        fontSize: 18,
+                        decoration: TextDecoration.underline,
+                        decorationColor: Colors.red),
+                  ),
                   SizedBox(
                     width: 12,
                   ),
